@@ -52,18 +52,18 @@ const Navbar = () => {
             </div>
             <ul className='nav-links'>
               <li>
-                <a href='/'>
+                <Link to='/'>
                   <button className='link-btn' onMouseOver={closeSubmenu}>
                     home
                   </button>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='/about'>
+                <Link to='/about'>
                   <button className='link-btn' onMouseOver={closeSubmenu}>
                     about us
                   </button>
-                </a>
+                </Link>
               </li>
               <li>
                 <Link to='/menu'>
@@ -73,19 +73,19 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <a href='/gallery'>
+                <Link to='/gallery'>
                   <button className='link-btn' onMouseOver={closeSubmenu}>
                     gallery
                   </button>
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href='/contact'>
+                <Link to='/contact'>
                   <button className='link-btn' onMouseOver={closeSubmenu}>
                     contact
                   </button>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
