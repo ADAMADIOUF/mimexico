@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { motion } from 'framer-motion'
-import { Link } from 'react-router-dom'
+
 import m from "../assets/mi6.png"
 import d1 from '../assets/d1.png'
 import d2 from '../assets/d2.png'
@@ -43,113 +43,113 @@ const Menu = () => {
             <div className='menu-container'>
               <article className='menu-card'>
                 <img src={d1} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <div>
                   <img src={d2} alt='' />
-                  <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                  <a href='https://direct.chownow.com/order/16089/locations/22847'>
                     <h5 className='order'>order now</h5>
-                  </Link>
+                  </a>
                 </div>
               </article>
               <article className='menu-card'>
                 <img src={d3} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <img src={d4} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>{' '}
               <article className='menu-card'>
                 <img src={d5} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <img src={d6} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <img src={d7} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <img src={d8} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <img src={d9} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <img src={d10} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <img src={d11} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <img src={d12} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <img src={d13} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <img src={d14} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <img src={d15} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <img src={d16} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <img src={d17} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
               <article className='menu-card'>
                 <img src={d18} alt='' />
-                <Link to='https://direct.chownow.com/order/16089/locations/22847'>
+                <a href='https://direct.chownow.com/order/16089/locations/22847'>
                   <h5 className='order'>order now</h5>
-                </Link>
+                </a>
               </article>
             </div>
           </div>
