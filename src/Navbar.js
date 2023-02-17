@@ -66,11 +66,11 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href='/menu'>
+                <Link to='/menu'>
                   <button className='link-btn' onMouseOver={closeSubmenu}>
                     menus
                   </button>
-                </a>
+                </Link>
               </li>
               <li>
                 <a href='/gallery'>
