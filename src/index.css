@@ -617,6 +617,7 @@ address.nextSlide {
   position: absolute;
   top: 10%;
   left: 10%;
+  width: 90%;
 }
 
 .btn-primary{
@@ -630,6 +631,7 @@ padding: 0.5rem;
 }
 .about-first-img img{
   width: 100%;
+  height: 600px;
    margin: 0 auto;
 }
 .about-content img{

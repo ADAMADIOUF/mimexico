@@ -52,40 +52,40 @@ const Navbar = () => {
             </div>
             <ul className='nav-links'>
               <li>
-                <Link to='/'>
+                <a href='/'>
                   <button className='link-btn' onMouseOver={closeSubmenu}>
                     home
                   </button>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to='/about'>
+                <a href='/about'>
                   <button className='link-btn' onMouseOver={closeSubmenu}>
                     about us
                   </button>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to='/menu'>
+                <a href='/menu'>
                   <button className='link-btn' onMouseOver={closeSubmenu}>
                     menus
                   </button>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to='/gallery'>
+                <a href='/gallery'>
                   <button className='link-btn' onMouseOver={closeSubmenu}>
                     gallery
                   </button>
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link to='/contact'>
+                <a href='/contact'>
                   <button className='link-btn' onMouseOver={closeSubmenu}>
                     contact
                   </button>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
