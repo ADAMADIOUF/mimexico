@@ -344,9 +344,9 @@ const Home = () => {
               Mi Mexico is a perfect to place relax.​Come in an experience
               authentic Mexican Cuisine.
             </p>
-            <Link to={`/menu`}>
+            <a href={`/menu`}>
               <button className='btn btn-last-menu'>view our menus</button>
-            </Link>
+            </a>
           </article>
           <article data-aos='fade-up'>
             <img src={m14} alt='' />
