@@ -1,7 +1,7 @@
 const sublinks = [
   {
     page: '',
-    links: [{ label: 'accueil', url: '/' }],
+    links: [{ label: 'home', url: '/' }],
   },
   {
     page: '',
