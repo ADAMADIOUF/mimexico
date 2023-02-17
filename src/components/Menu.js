@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 import { motion } from 'framer-motion'
-
 import m from "../assets/mi6.png"
 import d1 from '../assets/d1.png'
 import d2 from '../assets/d2.png'

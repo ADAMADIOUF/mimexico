@@ -16,7 +16,7 @@ const App = () => {
 
       <Submenu />
       <AnimateRouter />
-      <Footer/>
+      <Footer />
     </Router>
   )
 }
