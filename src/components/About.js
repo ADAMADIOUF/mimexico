@@ -52,7 +52,7 @@ const About = () => {
           </div>
           <div className='container-video'>
             <article className='video'>
-              <video width='320' height='240'  controls>
+              <video width='320' height='240' controls>
                 <source src='./images/Mexico.mp4' type='video/mp4' />
                 <source src='movie.ogg' type='video/ogg' />
                 Your browser does not support the video tag.
@@ -84,7 +84,10 @@ const About = () => {
           <div className='about-banner'>
             <div className='about-banner-content'>
               <h3>Minot North Dakota's best Authentic Mexican restaurant </h3>
-              <button className='btn book-about'>book a table</button>
+              
+              <a href='https://direct.chownow.com/order/16089/locations/22847'>
+                <button className='btn book-about'>order now</button>
+              </a>
             </div>
           </div>
 
