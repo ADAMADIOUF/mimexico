@@ -20,6 +20,7 @@ import { Link } from 'react-router-dom'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Popup from './Popup'
 const Home = () => {
    useEffect(() => {
      AOS.init({
@@ -353,6 +354,7 @@ const Home = () => {
           </article>
         </div>
       </div>
+      <Popup />
     </>
   )
 }

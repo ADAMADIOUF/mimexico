@@ -585,6 +585,21 @@ address.nextSlide {
   background: var(--clr-black);
   color: var(--clr-white);
 }
+/* popup */
+.promo{
+  width: 70%;
+  height: 400px;
+  display: block;
+  margin: 1rem auto;
+}
+.modal-btn{
+  cursor: pointer;
+  border: none;
+  color: var(--clr-primary2);
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+}
+
 /* about */
 .about-banner-section {
   background: url("./assets/aboutt.png");
@@ -613,22 +628,8 @@ address.nextSlide {
 .about-first-img{
   position: relative;
 }
-.modal-video{
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  width: 90%;
-}
 
-.btn-primary{
-  background: var(--clr-primary2);
-  font-size: 3rem;
-border-radius: 100%;
-padding: 0.5rem;
-  color:var(--clr-white);
-  cursor: pointer;
-  transition: var(--transition);
-}
+
 .about-first-img img{
   width: 100%;
   height: 600px;
@@ -652,6 +653,7 @@ padding: 0.5rem;
 
 .icons-about span img{
   width: 10rem;
+  margin-top: 5rem;
  
 }
 
@@ -693,8 +695,21 @@ position: relative;
 .book-about{
   margin-top: 3rem;
 }
+.video{
+  margin-top: 2rem;
+  border-radius: var(--radius);
+}
 @media (min-width:992px) {
+  video{
+    width: 500px;
+    height: 400px;
+  }
   .about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5rem;
+  }
+  .container-video{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 5rem;

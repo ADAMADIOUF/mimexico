@@ -6,10 +6,9 @@ import m2 from '../assets/check.png'
 import m3 from '../assets/cook.png'
 import m4 from '../assets/ingredients.png'
 import c from '../assets/chilli.png'
-
+import vi from "../assets/Mexico.mp4"
 import { AiFillYoutube } from 'react-icons/ai'
 
-import ModalVideo from 'react-modal-video'
 import SliderTwo from '../components/SliderTwo'
 const About = () => {
   const [isOpen, setOpen] = useState(false)
@@ -26,19 +25,6 @@ const About = () => {
           <div className='about-container section-center'>
             <article className='about-first-img'>
               <img src={about} alt='' />
-              <span className='modal-video'>
-                <ModalVideo
-                  channel='youtube'
-                  autoplay
-                  isOpen={isOpen}
-                  videoId='gSLSR9x4y6U'
-                  onClose={() => setOpen(false)}
-                />
-
-                <button className='btn-primary' onClick={() => setOpen(true)}>
-                  <AiFillYoutube />
-                </button>
-              </span>
             </article>
             <article className='about-content'>
               <h3>
@@ -62,6 +48,17 @@ const About = () => {
                 *Some exceptions apply to the free birthday meal and military
                 discount. Dine in Only
               </p>
+            </article>
+          </div>
+          <div className='container-video'>
+            <article className='video'>
+              <video width='320' height='240'  controls>
+                <source src='./images/Mexico.mp4' type='video/mp4' />
+                <source src='movie.ogg' type='video/ogg' />
+                Your browser does not support the video tag.
+              </video>
+            </article>
+            <article>
               <div className='icons-about'>
                 <div>
                   <span>
