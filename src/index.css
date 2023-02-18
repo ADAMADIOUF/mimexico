@@ -197,14 +197,14 @@ p {
     
   }
   .nav-links li{
-    height: 100%;
+    height: 50%;
     font-size: 2rem;
     color: var(--clr-white);
     transition: var(--transition);
     cursor: pointer;
   }
   .nav-links li:hover{
-   border-bottom: 5px dashed var(--clr-primary2);
+   border-bottom: 5px dashed var(--clr-black);
   }
   .link-btn {
     height: 100%;
