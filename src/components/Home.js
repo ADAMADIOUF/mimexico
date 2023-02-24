@@ -24,7 +24,7 @@ import Popup from './Popup'
 const Home = () => {
    useEffect(() => {
      AOS.init({
-       offset:400,
+       offset:200,
        duration:1000,
        delay:50,
        easing:"ease-in-out"
@@ -354,7 +354,7 @@ const Home = () => {
           </article>
         </div>
       </div>
-      <Popup />
+      {/* <Popup /> */}
     </>
   )
 }
